@@ -1,8 +1,29 @@
 aid: tahoe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tahoe.png
 name: Tahoe
-description: Tahoe is a company surfaced as a portfolio company of general-catalyst, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Tahoe (Tahoe Therapeutics) is a San Francisco AI-biotech company building "the ground
+  truth for biological superintelligence." It generates gigascale perturbative single-cell
+  datasets and trains foundation models of the human cell to design therapeutics, starting
+  with cancer. Flagship open assets include Tahoe-100M — the largest interventional
+  single-cell dataset to date (100M+ transcriptomes across ~1,100 chemical perturbations
+  and 50 cancer cell lines) — and Tahoe-x1, a family of perturbation-trained single-cell
+  foundation models with up to 3 billion parameters, released fully open-source with open
+  weights plus training and evaluation code. Tahoe's Mosaic platform makes in vivo,
+  single-cell-resolution data generation scalable. Backed by General Catalyst and Wing
+  Venture Capital, Tahoe publishes no commercial REST API; its programmatic surface is
+  open-source models, datasets, and the first-party tahoe-x1 Python library.
 url: https://raw.githubusercontent.com/api-evangelist/tahoe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Biotechnology
+- Life Sciences
+- Genomics
+- Single-Cell
+- Drug Discovery
+- Foundation Models
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Packages
+  url: packages/tahoe-packages.yml
+- type: SDKs
+  name: tahoe-x1 (Python)
+  url: packages/tahoe-packages.yml
+- type: LLMsTxt
+  url: llms/tahoe-llms.txt
+- type: DomainSecurity
+  url: security/tahoe-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/tahoebio
+- type: Blog
+  url: https://blog.tahoebio.ai/
+- type: Support
+  name: Tahoe Community (Slack)
+  url: https://join.slack.com/t/tahoecommunity/shared_invite/zt-3ncny7m0h-JcW6m6kSWczgYdrJNNowmg
 - type: Website
   url: https://www.tahoebio.ai/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

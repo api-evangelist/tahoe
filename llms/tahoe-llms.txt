@@ -1,0 +1,24 @@
+# Tahoe
+
+> Tahoe (Tahoe Therapeutics) is an AI-biotech company building "the ground truth for biological superintelligence" — gigascale single-cell datasets and perturbation-trained foundation models of the human cell, used to design therapeutics starting with cancer. Tahoe publishes no commercial REST API; its programmatic surface is open-source models, datasets, and Python tooling.
+
+## Products
+- Tahoe-100M: the largest interventional single-cell dataset to date — 100M+ transcriptomes capturing responses to ~1,100 chemical perturbations across 50 cancer cell lines.
+- Tahoe-x1 (Tx1): a family of perturbation-trained single-cell foundation models with up to 3 billion parameters; fully open-source with open weights, training and evaluation code.
+- Mosaic platform: scalable in vivo single-cell data generation mapping how drugs affect patient-derived cells.
+
+## Packages
+- tahoe-x1 (PyPI, first-party): https://pypi.org/project/tahoe-x1/ — `pip install tahoe-x1`
+
+## Code
+- GitHub org: https://github.com/tahoebio
+- tahoe-x1 repo: https://github.com/tahoebio/tahoe-x1
+- Model weights (Hugging Face): https://huggingface.co/tahoebio
+
+## Docs
+- Website: https://www.tahoebio.ai/
+- Blog: https://blog.tahoebio.ai/
+- Tahoe-x1 announcement: https://www.tahoebio.ai/news/tahoe-x1
+
+## Community
+- Slack community: https://join.slack.com/t/tahoecommunity/shared_invite/zt-3ncny7m0h-JcW6m6kSWczgYdrJNNowmg

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/tahoe-x1/
+packages:
+- language: python
+  registry: pypi
+  name: tahoe-x1
+  version: 1.0.0
+  url: https://pypi.org/project/tahoe-x1/
+  install: pip install tahoe-x1
+  official: true
+  summary: 'Tahoe-x1: perturbation-trained single-cell foundation models with up to 3 billion parameters (open weights, training and evaluation code).'
+  source_code: https://github.com/tahoebio/tahoe-x1
+  model_card: https://huggingface.co/tahoebio/Tahoe-x1
+notes: >-
+  Tahoe publishes no commercial REST API. tahoe-x1 is the first-party open-source
+  Python library for loading and running Tahoe's single-cell foundation models
+  (author "Tahoe Therapeutics", admin@tahoebio.ai). The PyPI packages "scdataset"
+  (authored by an external collaborator) and "tahoe" (an unrelated Flask framework)
+  are NOT first-party and are excluded.
